@@ -1,0 +1,46 @@
+@use 'variables' as *;
+
+@mixin glass-panel {
+    background: $glass-bg;
+    backdrop-filter: blur($glass-blur);
+    -webkit-backdrop-filter: blur($glass-blur);
+    border: 1px solid $glass-border;
+    box-shadow: $glass-shadow;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0 $spacing-md;
+}
+
+@mixin text-gradient {
+    background: linear-gradient(135deg, $color-text-primary 0%, $color-accent-light 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@mixin mobile {
+    @media (max-width: $breakpoint-tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $breakpoint-desktop) {
+        @content;
+    }
+}
