@@ -26,7 +26,7 @@ export class About {
 
         <div class="about__grid mt-lg">
           <div class="about__column">
-            <h3>Unsere Haltung</h3>
+            <h3 class="sub-header">Unsere Haltung</h3>
             <div class="glass-subcard">
               <h4>Das Problem</h4>
               <p>Viele Unternehmen investieren Zeit und Geld in Digitalisierung, ohne zu wissen:</p>
@@ -45,7 +45,7 @@ export class About {
           </div>
 
           <div class="about__column">
-            <h3>Für wen wir arbeiten</h3>
+            <h3 class="sub-header">Für wen wir arbeiten</h3>
             <p>Wir arbeiten mit KMU (5–250 Mitarbeitende) aus verschiedenen Branchen:</p>
             <div class="tags-container">
               <span class="tag">Dienstleistungen</span>
@@ -56,7 +56,7 @@ export class About {
               <span class="tag">Agenturen</span>
             </div>
 
-            <h4 class="mt-md">Typische Ausgangslagen</h4>
+            <h4 class="subcard-title mt-md">Typische Ausgangslagen</h4>
             <ul class="check-list">
               <li>Hoher administrativer Aufwand</li>
               <li>Langsame Angebots- und Auftragsprozesse</li>

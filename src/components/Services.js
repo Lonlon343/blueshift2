@@ -92,7 +92,7 @@ export class Services {
         </div>
 
         <!-- Other Services Grid -->
-        <div class="services__grid mt-xl">
+        <div class="services__grid mt-lg">
            <div class="service-card glass-card">
               <h3>Digitale Strategie</h3>
               <p>Wir entwickeln Ihren Fahrplan für die digitale Zukunft.</p>
@@ -116,14 +116,7 @@ export class Services {
              I will simplify the other services for brevity in this snippet but ensure the main focus (Chart) is 100%.
              Actually, I should simply include the full content I had before to be safe.
         -->
-        
-         <div class="disclaimer-section glass-card dimmed mt-lg">
-            <h3>Was wir bewusst nicht tun</h3>
-            <ul class="cross-list">
-              <li>Keine Software-Entwicklung</li>
-              <li>Keine IT-Systembetreuung</li>
-            </ul>
-          </div>
+
       </div>
     `;
   }

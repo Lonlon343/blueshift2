@@ -1,15 +1,18 @@
 export class Hero {
-    constructor() {
-        this.element = document.createElement('section');
-        this.element.className = 'hero';
-        this.render();
-        this.animate();
-    }
+  constructor() {
+    this.element = document.createElement('section');
+    this.element.className = 'hero';
+    this.render();
+    this.animate();
+  }
 
-    render() {
-        this.element.innerHTML = `
+  render() {
+    this.element.innerHTML = `
       <div class="hero__container">
         <div class="hero__content">
+          <div class="hero__brand">
+            <img src="/logo.png" alt="BlueShift Logo" class="hero__logo">
+          </div>
           <h1 class="hero__title">
             <span class="reveal-text">BlueShift</span>
             <span class="reveal-text gradient-text">Consulting</span>
@@ -25,18 +28,18 @@ export class Hero {
       </div>
       <div class="hero__background"></div>
     `;
-    }
+  }
 
-    animate() {
-        // Basic stagger animation using CSS classes or simple JS timeout
-        // In production, we'd use GSAP or IntersectionObserver for more control
+  animate() {
+    // Basic stagger animation using CSS classes or simple JS timeout
+    // In production, we'd use GSAP or IntersectionObserver for more control
+    setTimeout(() => {
+      const reveals = this.element.querySelectorAll('.reveal-text');
+      reveals.forEach((el, index) => {
         setTimeout(() => {
-            const reveals = this.element.querySelectorAll('.reveal-text');
-            reveals.forEach((el, index) => {
-                setTimeout(() => {
-                    el.classList.add('is-visible');
-                }, index * 200);
-            });
-        }, 100);
-    }
+          el.classList.add('is-visible');
+        }, index * 200);
+      });
+    }, 100);
+  }
 }

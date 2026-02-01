@@ -19,7 +19,7 @@ export class WhyUs {
     this.element.innerHTML = `
       <div class="container">
         <h2 class="section-title">Warum BlueShift Consulting</h2>
-        <p class="section-subtitle">Ihr Erfolg ist unser Benchmark.</p>
+        <h3 class="section-subtitle">Ihr Erfolg ist unser Benchmark.</h3>
         
         <div class="values__grid mb-lg">
           ${values.map(val => `
@@ -30,7 +30,7 @@ export class WhyUs {
           `).join('')}
         </div>
 
-        <div class="claim-section glass-card highlight-border text-center">
+        <div class="claim-section glass-card highlight-border text-center mt-lg">
           <h3>Unser Anspruch: Bessere Entscheidungen</h3>
           <p>Wir helfen Unternehmen, bessere Entscheidungen zu treffen – digital, effizient und wirtschaftlich sinnvoll.</p>
           <div class="claim-tags">
