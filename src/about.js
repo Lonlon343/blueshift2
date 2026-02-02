@@ -1,9 +1,6 @@
 import './styles/main.scss';
 import { Header } from './components/Header.js';
-import { Hero } from './components/Hero.js';
-import { Services } from './components/Services.js';
-import { Calculator } from './components/Calculator.js';
-import { WhyUs } from './components/WhyUs.js';
+import { About } from './components/About.js';
 import { Footer } from './components/Footer.js';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -11,27 +8,19 @@ document.addEventListener('DOMContentLoaded', () => {
     app.innerHTML = '';
 
     const header = new Header();
-    const hero = new Hero();
-    const services = new Services();
-    const whyUs = new WhyUs();
     const footer = new Footer();
 
     const main = document.createElement('main');
-    main.appendChild(hero.element);
-    main.appendChild(services.element);
 
-    // Feature: Inefficiency Calculator
-    const calculator = new Calculator();
-    main.appendChild(calculator.element);
-
-    main.appendChild(whyUs.element);
+    const about = new About();
+    main.appendChild(about.element);
 
     app.appendChild(header.element);
     app.appendChild(main);
     app.appendChild(footer.element);
 
-    // Feature: Scroll Reveal (Parallax-like effect)
-    const revealElements = document.querySelectorAll('.section-title, .section-subtitle, .card, .wizard__card, .calculator__card, .timeline__item');
+    // Feature: Scroll Reveal
+    const revealElements = document.querySelectorAll('.section-title, .about-text');
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -46,4 +35,3 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
 });
-

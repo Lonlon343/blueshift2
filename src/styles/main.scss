@@ -251,8 +251,8 @@ body {
         pointer-events: none;
 
         img {
-            margin-left: -800px;
-            margin-top: -450px;
+            margin-left: -550px;
+            margin-top: -400px;
             width: 1600px; // Large background watermark
             height: auto;
             max-width: none !important;
@@ -641,6 +641,26 @@ body {
         display: flex;
         flex-direction: column;
         gap: $spacing-xl;
+        position: relative;
+        overflow: hidden;
+
+        // Background Image: Business Analyse (Parallax Window)
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('/images/business-analyse.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; // Parallax Effect
+            opacity: 0.1;
+            z-index: -1;
+            mix-blend-mode: luminosity;
+            pointer-events: none;
+        }
 
         @include desktop {
             flex-direction: row;
@@ -1037,7 +1057,7 @@ body {
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url('/public/images/business.png');
+        background-image: url('/images/business.png');
         background-size: cover;
         background-position: center;
         background-attachment: fixed; // Parallax Effect
