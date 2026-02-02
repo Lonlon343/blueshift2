@@ -8,10 +8,10 @@ export class Footer {
   render() {
     const year = new Date().getFullYear();
     this.element.innerHTML = `
-      <div class="footer__container">
+      <div class="footer__container" style="justify-content: between;">
         <div class="footer__brand">
           <div class="header__logo">
-            <img src="/logo.png" alt="BlueShift" style="height: 24px;">
+            <img src="/logo.png" alt="BlueShift" style="height: 184px; width: auto">
             <span>BlueShift Consulting</span>
           </div>
           <p class="footer__copyright">&copy; ${year} All rights reserved.</p>

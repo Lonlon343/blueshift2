@@ -22,10 +22,10 @@ export class Header {
 
         <nav class="header__nav">
           <ul class="header__menu">
-            <li><a href="/process.html">Prozess</a></li>
-            <li><a href="/about.html">Über uns</a></li>
             <li><a href="/index.html#services">Services</a></li>
+            <li><a href="/process.html">Prozess</a></li>
             <li><a href="/index.html#why-us">Warum BlueShift</a></li>
+            <li><a href="/about.html">Über uns</a></li>
             <li><a href="/index.html#contact" class="btn is-primary">Kontakt</a></li>
           </ul>
         </nav>

@@ -1061,9 +1061,8 @@ body {
         background-size: cover;
         background-position: center;
         background-attachment: fixed; // Parallax Effect
-        opacity: 0.05; // Very subtle
+        opacity: 0.2; // Very subtle
         z-index: 0;
-        mix-blend-mode: luminosity;
         pointer-events: none;
     }
 

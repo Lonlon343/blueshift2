@@ -21,7 +21,7 @@ export class WhyUs {
         <h2 class="section-title">Warum BlueShift Consulting</h2>
         <h3 class="section-subtitle">Ihr Erfolg ist unser Benchmark.</h3>
         
-        <div class="values__grid mb-lg">
+        <div class="values__grid mt-lg mb-lg">
           ${values.map(val => `
             <div class="value-card glass-card">
               <h3>${val.title}</h3>

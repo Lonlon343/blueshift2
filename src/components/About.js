@@ -24,21 +24,20 @@ export class About {
           </p>
         </div>
 
-        <div class="about__grid mt-lg">
+        <div class="about__grid mt-lg text-center">
           <div class="about__column">
-            <h3 class="sub-header">Unsere Haltung</h3>
             <div class="glass-subcard">
-              <h4>Das Problem</h4>
-              <p>Viele Unternehmen investieren Zeit und Geld in Digitalisierung, ohne zu wissen:</p>
-              <ul class="bullet-list">
-                <li>was wirklich sinnvoll ist</li>
-                <li>was sich wirtschaftlich rechnet</li>
-                <li>was Mitarbeitende entlastet</li>
-                <li>was langfristig funktioniert</li>
+              <h3 class="sub-header">Das Problem</h3>
+              <h3 class="sub-header">Viele Unternehmen investieren Zeit und Geld in Digitalisierung, ohne zu wissen:</h3>
+              <ul>
+                <p>- Was wirklich sinnvoll ist</p>
+                <p>- Was sich wirtschaftlich rechnet</p>
+                <p>- Was Mitarbeitende entlastet</p>
+                <p>- Was langfristig funktioniert</p>
               </ul>
             </div>
-            <div class="glass-subcard mt-md">
-              <h4>Unsere Überzeugung</h4>
+            <div class="glass-subcard mt-lg">
+              <h3 class="sub-header">Unsere Überzeugung</h3>
               <p>Digitalisierung ist kein Selbstzweck – sie muss sich rechnen, entlasten und strategisch passen.</p>
               <p>Deshalb beraten wir unabhängig, praxisnah und messbar.</p>
             </div>
@@ -56,7 +55,7 @@ export class About {
               <span class="tag">Agenturen</span>
             </div>
 
-            <h4 class="subcard-title mt-md">Typische Ausgangslagen</h4>
+            <h4 class="subcard-title mt-lg">Typische Ausgangslagen</h4>
             <ul class="check-list">
               <li>Hoher administrativer Aufwand</li>
               <li>Langsame Angebots- und Auftragsprozesse</li>

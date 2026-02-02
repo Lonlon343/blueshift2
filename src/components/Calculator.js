@@ -28,7 +28,7 @@ export class Calculator {
         this.element.innerHTML = `
             <div class="container">
                 <h2 class="section-title">Was kosten Sie ineffiziente Prozesse wirklich?</h2>
-                <p class="section-subtitle">Finden Sie heraus, wie viel Budget durch manuelle Admin-Aufgaben jährlich verbrannt wird.</p>
+                <p style="margin-bottom: 30px" class="section-subtitle">Finden Sie heraus, wie viel Budget durch manuelle Admin-Aufgaben jährlich verbrannt wird.</p>
                 
                 <div class="calculator__card glass-card">
                     <div class="calculator__inputs">
