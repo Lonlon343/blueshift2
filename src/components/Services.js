@@ -109,13 +109,7 @@ export class Services {
               <h3>Performance Marketing</h3>
               <p>Messbare Verbesserung der digitalen Performance.</p>
             </div>
-        </div>
-
-        <!-- Missing Disclaimer & Partners will be preserved in styles/structure if I don't overwrite everything? 
-             Wait, I am replacing the render method. I should keep the other sections. 
-             I will simplify the other services for brevity in this snippet but ensure the main focus (Chart) is 100%.
-             Actually, I should simply include the full content I had before to be safe.
-        -->
+        </div
 
       </div>
     `;

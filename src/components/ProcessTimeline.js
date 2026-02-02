@@ -75,9 +75,7 @@ export class ProcessTimeline {
     render() {
         this.element.innerHTML = `
             <div class="container">
-                <h2 class="section-title">Unser Beratungsprozess</h2>
-                <p class="section-subtitle">In 5 Phasen zur operativen Exzellenz.</p>
-                
+                <h2 class="section-title">Unser Beratungsprozess</h2>                
                 <div class="timeline__container">
                     <div class="timeline__line"></div>
                     <div class="timeline__items" id="timeline-items">
