@@ -1,11 +1,11 @@
 // Colors - Deep Corporate Blue Palette
-$color-bg-primary: #0f172a; // Slate 900
-$color-bg-secondary: #1e293b; // Slate 800
-$color-bg-tertiary: #334155; // Slate 700
+$color-bg-primary: #ffffff; // Slate 900
+$color-bg-secondary: #eaeaea; // Slate 800
+$color-bg-tertiary: #98c3ff; // Slate 700
 
-$color-text-primary: #f8fafc; // Slate 50
-$color-text-secondary: #94a3b8; // Slate 400
-$color-text-muted: #64748b; // Slate 500
+$color-text-primary: #168aff; // Slate 50
+$color-text-secondary: #5d6877; // Slate 400
+$color-text-muted: #4b5667; // Slate 500
 
 $color-accent-blue: #3b82f6; // Blue 500
 $color-accent-light: #60a5fa; // Blue 400
@@ -14,10 +14,10 @@ $color-accent-neon: #00f0ff; // Added missing variable
 $color-accent-magenta: #ec4899; // Pink 500 (Missing)
 
 // Glassmorphism
-$glass-bg: rgba(30, 41, 59, 0.7);
-$glass-border: rgba(255, 255, 255, 0.1);
+$glass-bg: rgba(169, 202, 255, 0.7);
+$glass-border: rgba(255, 255, 255, 0.664);
 $glass-blur: 12px;
-$glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+$glass-shadow: 0 4px 30px rgba(201, 201, 201, 0.851);
 
 // Typography
 $font-family-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
