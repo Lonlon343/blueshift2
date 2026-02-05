@@ -14,32 +14,34 @@ export class About {
         <div class="about__intro glass-card">
           <h3>Wer wir sind</h3>
           <p>
-            BlueShift Consulting ist eine strategische Beratungsagentur für kleine und mittlere Unternehmen, die ihre Digitalisierung wirtschaftlich sinnvoll, strukturiert und messbar vorantreiben wollen.
+            BlueShift Consulting ist eine Beratung mit klarem Fokus auf Analyse, Struktur und Wirtschaftlichkeit.
+            Wir unterstützen Unternehmen dabei, Marketing, digitale Prozesse und Automatisierung nicht isoliert, sondern im Gesamtkontext zu betrachten.
           </p>
           <p>
-            Wir unterstützen Unternehmer und Geschäftsführer dabei, Kosten zu senken, Prozesse zu vereinfachen, Vertrieb und Marketing zu strukturieren und fundierte digitale Entscheidungen zu treffen – ohne unnötige Tools, ohne Technik-Aktionismus und ohne Abhängigkeit von Softwareanbietern.
+            Im Mittelpunkt unserer Arbeit stehen fundierte Analysen, klare Handlungsempfehlungen und sinnvolle Priorisierung.
+            Performance Marketing, Websites und KI-Workflows setzen wir gezielt aus eigener Hand um, um flexibel zu bleiben, individuell auf Unternehmen eingehen zu können und Empfehlungen direkt wirksam zu machen.
           </p>
           <p class="highlight-text">
-            BlueShift steht für Klarheit statt Komplexität und Entscheidungsgrundlagen statt Trends.
+            Wir verstehen uns nicht als klassische Agentur, sondern als beratender Partner, der Strategie, Umsetzung und Optimierung sinnvoll verbindet.
           </p>
         </div>
 
         <div class="about__grid mt-lg text-center">
           <div class="about__column">
             <div class="glass-subcard">
-              <h3 class="sub-header">Das Problem</h3>
-              <h3 class="sub-header">Viele Unternehmen investieren Zeit und Geld in Digitalisierung, ohne zu wissen:</h3>
-              <ul>
-                <p>- Was wirklich sinnvoll ist</p>
-                <p>- Was sich wirtschaftlich rechnet</p>
-                <p>- Was Mitarbeitende entlastet</p>
-                <p>- Was langfristig funktioniert</p>
-              </ul>
+              <h3 class="sub-header">Unser Beratungsansatz</h3>
+              <p>Digitale Maßnahmen entfalten nur dann Wirkung, wenn sie auf einer sauberen Analyse basieren.</p>
+              <p>Deshalb beginnt jede Zusammenarbeit bei BlueShift mit dem Verstehen des Unternehmens – nicht mit Tools oder Kampagnen.</p>
             </div>
             <div class="glass-subcard mt-lg">
-              <h3 class="sub-header">Unsere Überzeugung</h3>
-              <p>Digitalisierung ist kein Selbstzweck – sie muss sich rechnen, entlasten und strategisch passen.</p>
-              <p>Deshalb beraten wir unabhängig, praxisnah und messbar.</p>
+              <h3 class="sub-header">Unser Ansatz</h3>
+              <ul class="check-list">
+                <li>Analysieren statt vermuten</li>
+                <li>Priorisieren statt alles gleichzeitig machen</li>
+                <li>Umsetzen, wo es sinnvoll ist</li>
+                <li>Regelmäßig hinterfragen und optimieren</li>
+              </ul>
+              <p class="mt-sm">So entstehen Lösungen, die wirtschaftlich tragfähig, realistisch umsetzbar und nachhaltig wirksam sind.</p>
             </div>
           </div>
 

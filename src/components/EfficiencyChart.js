@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 
+
 export class EfficiencyChart {
     constructor(containerId, onHoverCallback) {
         this.containerId = containerId;

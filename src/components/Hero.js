@@ -18,7 +18,8 @@ export class Hero {
             <span class="reveal-text gradient-text">Consulting</span>
           </h1>
           <p class="hero__subtitle reveal-text">
-            Strategische Beratung für digitale Effizienz, Wachstum und klare Entscheidungen.
+            Beratung mit Fokus auf Analyse, Klarheit und Wirkung<br>
+            Digitale Entscheidungen fundiert treffen – und gezielt umsetzen
           </p>
           <div class="hero__actions reveal-text">
             <a href="#services" class="btn is-primary">View Services</a>

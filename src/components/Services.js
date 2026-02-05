@@ -28,25 +28,25 @@ export class Services {
   render() {
     this.element.innerHTML = `
       <div class="container">
-        <h2 class="section-title">Leistungen</h2>
+        <h2 class="section-title">Unsere Beratungsleistungen</h2>
         
         <!-- Main Efficiency Analysis Feature -->
         <div class="services__feature glass-card">
           <div class="feature-header">
-            <h3>EffizienzAnalyse 360°</h3>
-            <p>Unsere Kernleistung: Wir analysieren kaufmännische und administrative Prozesse End-to-End.</p>
+            <h3>Digitalisierungs- & Effizienzanalyse</h3>
+            <p>Viele Unternehmen arbeiten digital, aber nicht effizient. Unsere Analyse setzt genau hier an.</p>
           </div>
 
           <div class="chart-wrapper">
             <!-- Left Labels -->
             <div class="chart-labels left">
                <div class="chart-label" data-id="email">
-                <strong>E-Mail & Anfragen</strong>
-                <span>Bearbeitung optimieren</span>
+                <strong>Arbeitsabläufe</strong>
+                <span>Marketing & Vertrieb</span>
               </div>
               <div class="chart-label" data-id="marketing">
-                <strong>Marketing & Vertrieb</strong>
-                <span>Abläufe verbessern</span>
+                <strong>Manuelle Tätigkeiten</strong>
+                <span>Identifizieren & Reduzieren</span>
               </div>
             </div>
 
@@ -56,16 +56,16 @@ export class Services {
             <!-- Right Labels -->
             <div class="chart-labels right">
               <div class="chart-label" data-id="offers">
-                <strong>Angebote & Aufträge</strong>
-                <span>Prozesse beschleunigen</span>
+                <strong>Automatisierung</strong>
+                <span>Potenziale bewerten</span>
               </div>
                <div class="chart-label" data-id="comms">
-                <strong>Kommunikation</strong>
-                <span>Intern strukturieren</span>
+                <strong>Wirtschaftlichkeit</strong>
+                <span>Zeit & Kosten</span>
               </div>
               <div class="chart-label" data-id="docs">
-                <strong>Dokumente & Daten</strong>
-                <span>Flüsse optimieren</span>
+                <strong>Digitalisierung</strong>
+                <span>Sinnvoll priorisieren</span>
               </div>
             </div>
           </div>
@@ -73,20 +73,20 @@ export class Services {
           <!-- Bottom Cards -->
           <div class="feature-cards">
             <div class="feature-card blue-card">
-              <h4>Optimierungsvorschläge</h4>
-              <p>Konkrete Maßnahmen</p>
+              <h4>Konkrete Empfehlungen</h4>
+              <p>Prozesse vereinfachen</p>
             </div>
             <div class="feature-card blue-card">
-              <h4>Automatisierung & KI</h4>
-              <p>Moderne Ansätze</p>
+              <h4>Automatisierung</h4>
+              <p>Wo es sinnvoll ist</p>
             </div>
             <div class="feature-card blue-card">
-              <h4>Priorisierung</h4>
-              <p>Nach Wirkung sortiert</p>
+              <h4>Struktur</h4>
+              <p>Neu ordnen</p>
             </div>
             <div class="feature-card blue-card">
-              <h4>ROI-Berechnung</h4>
-              <p>Messbare Wirtschaftlichkeit</p>
+              <h4>Ohne Komplexität</h4>
+              <p>Einfach und klar</p>
             </div>
           </div>
         </div>
@@ -94,22 +94,69 @@ export class Services {
         <!-- Other Services Grid -->
         <div class="services__grid mt-lg">
            <div class="service-card glass-card">
-              <h3>Digitale Strategie</h3>
-              <p>Wir entwickeln Ihren Fahrplan für die digitale Zukunft.</p>
+              <h3>Vertriebs- & Marketinganalyse</h3>
+              <p>Transparenz schaffen, Maßnahmen bewerten, Potenziale identifizieren.</p>
             </div>
              <div class="service-card glass-card">
-              <h3>Sales & Growth</h3>
-              <p>Stabile und zukunftsfähige Vertriebsstrukturen aufbauen.</p>
-            </div>
-             <div class="service-card glass-card">
-              <h3>Business Process</h3>
-              <p>Struktur und Klarheit in Organisation und Abläufen.</p>
+              <h3>Strategische Digitalberatung</h3>
+              <p>Entwicklung realistischer Strategien, Priorisierung und Entscheidungsgrundlagen.</p>
             </div>
              <div class="service-card glass-card">
               <h3>Performance Marketing</h3>
-              <p>Messbare Verbesserung der digitalen Performance.</p>
+              <p>Google Ads, Meta Ads (Facebook & Instagram), Recruiting-Kampagnen.</p>
             </div>
-        </div
+             <div class="service-card glass-card">
+              <h3>Websites</h3>
+              <p>Individuelle Websites und Landingpages mit klarer Funktion und Zielen.</p>
+            </div>
+            <div class="service-card glass-card">
+              <h3>KI-Workflows</h3>
+              <p>Prozesse vereinfachen und Mitarbeiter entlasten durch gezielte Automatisierung.</p>
+            </div>
+             <div class="service-card glass-card">
+              <h3>Umsetzung aus einer Hand</h3>
+              <p>Wir setzen Maßnahmen direkt um, um flexibel und individuell zu bleiben.</p>
+            </div>
+        </div>
+
+        <!-- Service Packages -->
+        <h2 class="section-title mt-xxl">Unsere Leistungspakete</h2>
+        <p class="section-subtitle">Modular und individuell anpassbar.</p>
+        
+        <div class="values__grid mt-lg">
+          <div class="value-card glass-card highlight-border">
+            <h3 class="subcard-title" style="font-size: 1.5rem;">Foundation</h3>
+            <p style="margin-bottom: 1rem;">Der strukturierte Einstieg.</p>
+            <ul class="check-list small">
+              <li>Vertriebs- & Marketinganalyse</li>
+              <li>Google Ads oder Meta Ads</li>
+              <li>Basis-SEO</li>
+              <li>Grundlegendes Tracking</li>
+            </ul>
+          </div>
+          
+          <div class="value-card glass-card highlight-border" style="border-color: rgba(59, 130, 246, 0.5);">
+            <h3 class="subcard-title" style="font-size: 1.5rem; color: #2563eb;">Growth</h3>
+            <p style="margin-bottom: 1rem;">Optimierung & Wachstum.</p>
+            <ul class="check-list small">
+              <li>Vertiefte Analyse & Beratung</li>
+              <li>Google Ads und Meta Ads</li>
+              <li>Produkt- oder Recruitingkampagnen</li>
+              <li>Website-Pflege & Weiterentwicklung</li>
+            </ul>
+          </div>
+
+          <div class="value-card glass-card highlight-border">
+            <h3 class="subcard-title" style="font-size: 1.5rem;">Scale & Optimize</h3>
+            <p style="margin-bottom: 1rem;">Effizienz & Steuerung.</p>
+            <ul class="check-list small">
+              <li>Umfassende Analyse & Priorisierung</li>
+              <li>Kanalübergreifendes Marketing</li>
+              <li>KI-Workflows & Optimierung</li>
+              <li>Prozess- & Effizienzberatung</li>
+            </ul>
+          </div>
+        </div>
 
       </div>
     `;

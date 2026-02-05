@@ -68,7 +68,7 @@ body {
 
     &:hover {
         transform: translateY(-5px);
-        background: rgba(30, 41, 59, 0.8);
+        background: rgba(255, 255, 255, 0.8);
     }
 
     h3 {
@@ -895,10 +895,7 @@ body {
         font-weight: 700;
         margin-bottom: $spacing-lg;
         text-align: center;
-        background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        color: #2563eb;
     }
 
     &__grid {
@@ -1021,7 +1018,7 @@ body {
             font-weight: 800;
             margin-bottom: $spacing-sm;
             line-height: 1.2;
-            @include text-gradient;
+            color: #2563eb;
         }
 
         .result-subline {
@@ -1139,8 +1136,12 @@ body {
         left: 24px;
         top: 0;
         bottom: 0;
-        width: 2px;
-        background: rgba(255, 255, 255, 0.1);
+        width: 3px; // Slightly thicker
+        background: linear-gradient(180deg,
+                rgba($color-accent-blue, 0) 0%,
+                rgba($color-accent-blue, 0.3) 10%,
+                rgba($color-accent-blue, 0.3) 90%,
+                rgba($color-accent-blue, 0) 100%); // Blue-ish line for visibility on white
         z-index: 0;
 
         @include desktop {
@@ -1213,15 +1214,17 @@ body {
         @include glass-panel;
         padding: $spacing-md;
         border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.05);
+        border: 1px solid $glass-border; // Use variable
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); // Subtle shadow
         cursor: pointer;
         transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
         position: relative;
         overflow: hidden;
 
         &:hover {
-            border-color: rgba($color-accent-blue, 0.3);
-            background: rgba(30, 41, 59, 0.85);
+            border-color: rgba($color-accent-blue, 0.5);
+            background: rgba(255, 255, 255, 0.9);
+            transform: translateY(-2px);
         }
     }
 
@@ -1230,14 +1233,14 @@ body {
         .marker-circle {
             background: $color-accent-blue;
             color: white;
-            transform: scale(1.2);
-            box-shadow: 0 0 20px rgba($color-accent-blue, 0.6);
-            border-color: white;
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba($color-accent-blue, 0.4);
+            border-color: $color-accent-blue;
         }
 
         .timeline__card {
-            border-color: $color-accent-magenta;
-            box-shadow: 0 0 30px rgba($color-accent-magenta, 0.15);
+            border-color: $color-accent-blue; // Blue border
+            box-shadow: 0 10px 30px -10px rgba($color-accent-blue, 0.2);
 
             &::before {
                 content: '';
@@ -1245,7 +1248,7 @@ body {
                 inset: 0;
                 border-radius: 12px;
                 padding: 1px;
-                background: linear-gradient(45deg, $color-accent-blue, $color-accent-magenta);
+                background: linear-gradient(45deg, $color-accent-blue, $color-accent-light);
                 -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
                 -webkit-mask-composite: xor;
                 mask-composite: exclude;

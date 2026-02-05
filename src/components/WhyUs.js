@@ -8,12 +8,12 @@ export class WhyUs {
 
   render() {
     const values = [
-      { title: 'Klare Sprache', desc: 'Keine Buzzwords, sondern verständliche Kommunikation.' },
-      { title: 'ROI-Fokus', desc: 'Wirtschaftlicher Nutzen steht im Mittelpunkt.' },
-      { title: 'Unabhängig', desc: 'Keine Tool-Verkaufsinteressen.' },
-      { title: 'Praxisnah', desc: 'Realistische und umsetzbare Lösungen.' },
-      { title: 'Transparent', desc: 'Klare Abgrenzung und Verantwortung.' },
-      { title: 'Messbar', desc: 'Konkrete Ergebnisse und Kennzahlen.' }
+      { title: 'Analysieren', desc: 'Statt vermuten: Fundierte Basis für Entscheidungen.' },
+      { title: 'Priorisieren', desc: 'Statt alles gleichzeitig: Fokus auf das Wesentliche.' },
+      { title: 'Umsetzen', desc: 'Wo es sinnvoll ist: Direkte Wirkung erzielen.' },
+      { title: 'Optimieren', desc: 'Regelmäßig hinterfragen: Nachhaltiger Erfolg.' },
+      { title: 'Wirtschaftlich', desc: 'Lösungen, die sich rechnen.' },
+      { title: 'Realistisch', desc: 'Umsetzbar für Ihr Unternehmen.' }
     ];
 
     this.element.innerHTML = `
