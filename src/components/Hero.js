@@ -22,8 +22,8 @@ export class Hero {
             Digitale Entscheidungen fundiert treffen – und gezielt umsetzen
           </p>
           <div class="hero__actions reveal-text">
-            <a href="#services" class="btn is-primary">View Services</a>
-            <a href="#contact" class="btn is-secondary">Get in touch</a>
+            <a href="#services" class="btn is-primary">Unsere Leistungen</a>
+            <a href="#contact" class="btn is-secondary">In Kontakt treten</a>
           </div>
         </div>
       </div>
